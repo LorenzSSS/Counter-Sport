@@ -1,0 +1,57 @@
+@import url(../CSS/reset.css);
+
+body{
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container__content{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 500px;
+    padding: 0px 25px;
+}
+
+.btn {
+    display: block;
+    max-width: 100%;
+    width: 500px;
+    height: 100px;
+    background: #4191FF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 206px;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.counter{
+    margin-top: 126px;
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.reset{
+    text-align: center;
+    display: block;
+    color: #fff;
+    background: red;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px;
+    overflow: hidden;
+    max-width: 100%;
+    width: 500px;
+    height: 100px;
+}
